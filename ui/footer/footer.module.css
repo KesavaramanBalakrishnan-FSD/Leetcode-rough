@@ -1,0 +1,19 @@
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+}
+
+.footer .a {
+  color: #555;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.footer .a:hover {
+  color: #ff6f61;
+}

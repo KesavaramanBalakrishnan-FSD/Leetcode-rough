@@ -1,0 +1,93 @@
+/* Hero Section */
+.hero {
+  margin-top: 70px;
+  text-align: center;
+  padding: 40px 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 100px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero .h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.hero .p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.actions .a {
+  margin: 0 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.actions .btn {
+  background: #ff6f61;
+  color: white;
+}
+
+.actions .btn:hover {
+  background: #ff4b47;
+}
+
+.actions .secondary {
+  background: #555;
+  color: white;
+}
+
+.actions .secondary:hover {
+  background: #333;
+}
+
+/* Features Section */
+.features {
+  margin: 40px auto;
+  max-width: 1000px;
+  text-align: center;
+  padding: 20px;
+}
+
+.features .h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.featurelist {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex: 1;
+  max-width: 300px;
+  background: white;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature .h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.feature .p {
+  font-size: 1rem;
+  color: #666;
+}
